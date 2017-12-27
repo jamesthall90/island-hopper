@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D33991966073D5C89FE4A4E /* Pods_Island_HopperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEBB0D7C6E93CD6EB01647FB /* Pods_Island_HopperUITests.framework */; };
+		2AD42D4DF525E648DC08E27B /* Pods_Island_Hopper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9461ACB55EE5E1420CDFF4 /* Pods_Island_Hopper.framework */; };
 		7219F82F1FF2B199003A410D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219F82E1FF2B199003A410D /* AppDelegate.swift */; };
 		7219F8311FF2B199003A410D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219F8301FF2B199003A410D /* ViewController.swift */; };
 		7219F8341FF2B199003A410D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7219F8321FF2B199003A410D /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		7219F8391FF2B199003A410D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7219F8371FF2B199003A410D /* LaunchScreen.storyboard */; };
 		7219F8441FF2B199003A410D /* Island_HopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219F8431FF2B199003A410D /* Island_HopperTests.swift */; };
 		7219F84F1FF2B199003A410D /* Island_HopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219F84E1FF2B199003A410D /* Island_HopperUITests.swift */; };
+		A8911F2EB340C4237496FEE5 /* Pods_Island_HopperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F4618D37B8AD02554CEC86 /* Pods_Island_HopperTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2326E8CAA086AAC4C66BCD4D /* Pods-Island Hopper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Island Hopper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Island Hopper/Pods-Island Hopper.release.xcconfig"; sourceTree = "<group>"; };
+		69F4618D37B8AD02554CEC86 /* Pods_Island_HopperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Island_HopperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0BA59F7337F9F60E1E80CE /* Pods-Island HopperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Island HopperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Island HopperTests/Pods-Island HopperTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7219F82B1FF2B199003A410D /* Island Hopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Island Hopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7219F82E1FF2B199003A410D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7219F8301FF2B199003A410D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		7219F84A1FF2B199003A410D /* Island HopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Island HopperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7219F84E1FF2B199003A410D /* Island_HopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island_HopperUITests.swift; sourceTree = "<group>"; };
 		7219F8501FF2B199003A410D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76D295BB1F1DA4E203C86428 /* Pods-Island Hopper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Island Hopper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Island Hopper/Pods-Island Hopper.debug.xcconfig"; sourceTree = "<group>"; };
+		8A097C91C869A9AAF76A8A9B /* Pods-Island HopperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Island HopperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Island HopperTests/Pods-Island HopperTests.release.xcconfig"; sourceTree = "<group>"; };
+		916072E04E0F59D8003B6991 /* Pods-Island HopperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Island HopperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Island HopperUITests/Pods-Island HopperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DEBB0D7C6E93CD6EB01647FB /* Pods_Island_HopperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Island_HopperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9461ACB55EE5E1420CDFF4 /* Pods_Island_Hopper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Island_Hopper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D2DE4CA622FFF512CEE48E /* Pods-Island HopperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Island HopperUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Island HopperUITests/Pods-Island HopperUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AD42D4DF525E648DC08E27B /* Pods_Island_Hopper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8911F2EB340C4237496FEE5 /* Pods_Island_HopperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D33991966073D5C89FE4A4E /* Pods_Island_HopperUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				7219F8421FF2B199003A410D /* Island HopperTests */,
 				7219F84D1FF2B199003A410D /* Island HopperUITests */,
 				7219F82C1FF2B199003A410D /* Products */,
+				7932B991EE422A63E30E7410 /* Pods */,
+				F0D24D2FD47DFF074A27105C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = "Island HopperUITests";
 			sourceTree = "<group>";
 		};
+		7932B991EE422A63E30E7410 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76D295BB1F1DA4E203C86428 /* Pods-Island Hopper.debug.xcconfig */,
+				2326E8CAA086AAC4C66BCD4D /* Pods-Island Hopper.release.xcconfig */,
+				6B0BA59F7337F9F60E1E80CE /* Pods-Island HopperTests.debug.xcconfig */,
+				8A097C91C869A9AAF76A8A9B /* Pods-Island HopperTests.release.xcconfig */,
+				F8D2DE4CA622FFF512CEE48E /* Pods-Island HopperUITests.debug.xcconfig */,
+				916072E04E0F59D8003B6991 /* Pods-Island HopperUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0D24D2FD47DFF074A27105C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED9461ACB55EE5E1420CDFF4 /* Pods_Island_Hopper.framework */,
+				69F4618D37B8AD02554CEC86 /* Pods_Island_HopperTests.framework */,
+				DEBB0D7C6E93CD6EB01647FB /* Pods_Island_HopperUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7219F8531FF2B199003A410D /* Build configuration list for PBXNativeTarget "Island Hopper" */;
 			buildPhases = (
+				FC24277F0C174977A6C45D2E /* [CP] Check Pods Manifest.lock */,
 				7219F8271FF2B199003A410D /* Sources */,
 				7219F8281FF2B199003A410D /* Frameworks */,
 				7219F8291FF2B199003A410D /* Resources */,
+				434F4D75DB1B0CF7ECF60D80 /* [CP] Embed Pods Frameworks */,
+				F7323955251FEC036A6BF74E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7219F8561FF2B199003A410D /* Build configuration list for PBXNativeTarget "Island HopperTests" */;
 			buildPhases = (
+				F8BC7A07C8530B8952366B57 /* [CP] Check Pods Manifest.lock */,
 				7219F83B1FF2B199003A410D /* Sources */,
 				7219F83C1FF2B199003A410D /* Frameworks */,
 				7219F83D1FF2B199003A410D /* Resources */,
+				56F3A125F603FECB2654F650 /* [CP] Embed Pods Frameworks */,
+				59EE3B421E8C3E8D4B0675CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7219F8591FF2B199003A410D /* Build configuration list for PBXNativeTarget "Island HopperUITests" */;
 			buildPhases = (
+				1C1E627202C49B75D1E0C700 /* [CP] Check Pods Manifest.lock */,
 				7219F8461FF2B199003A410D /* Sources */,
 				7219F8471FF2B199003A410D /* Frameworks */,
 				7219F8481FF2B199003A410D /* Resources */,
+				7ADB288F043481A87778523D /* [CP] Embed Pods Frameworks */,
+				5F76FE36CCA2AC85D13666FC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +301,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C1E627202C49B75D1E0C700 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Island HopperUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		434F4D75DB1B0CF7ECF60D80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Island Hopper/Pods-Island Hopper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AACarousel/AACarousel.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AACarousel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Island Hopper/Pods-Island Hopper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56F3A125F603FECB2654F650 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Island HopperTests/Pods-Island HopperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59EE3B421E8C3E8D4B0675CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Island HopperTests/Pods-Island HopperTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F76FE36CCA2AC85D13666FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Island HopperUITests/Pods-Island HopperUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ADB288F043481A87778523D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Island HopperUITests/Pods-Island HopperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7323955251FEC036A6BF74E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Island Hopper/Pods-Island Hopper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8BC7A07C8530B8952366B57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Island HopperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC24277F0C174977A6C45D2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Island Hopper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7219F8271FF2B199003A410D /* Sources */ = {
@@ -423,11 +624,13 @@
 		};
 		7219F8541FF2B199003A410D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D295BB1F1DA4E203C86428 /* Pods-Island Hopper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4U642UQEDA;
 				INFOPLIST_FILE = "Island Hopper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iheart.Island-Hopper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,11 +641,13 @@
 		};
 		7219F8551FF2B199003A410D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2326E8CAA086AAC4C66BCD4D /* Pods-Island Hopper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4U642UQEDA;
 				INFOPLIST_FILE = "Island Hopper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iheart.Island-Hopper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -453,6 +658,7 @@
 		};
 		7219F8571FF2B199003A410D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B0BA59F7337F9F60E1E80CE /* Pods-Island HopperTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -470,6 +676,7 @@
 		};
 		7219F8581FF2B199003A410D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A097C91C869A9AAF76A8A9B /* Pods-Island HopperTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +694,7 @@
 		};
 		7219F85A1FF2B199003A410D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D2DE4CA622FFF512CEE48E /* Pods-Island HopperUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +711,7 @@
 		};
 		7219F85B1FF2B199003A410D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 916072E04E0F59D8003B6991 /* Pods-Island HopperUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
