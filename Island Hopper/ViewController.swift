@@ -12,6 +12,7 @@ import SafariServices
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var mainStackView: UIStackView!
     var titleArray = [String]()
     @IBOutlet weak var iHLogo: UIImageView!
     @IBOutlet weak var iHCarousel: AACarousel!
@@ -22,9 +23,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
+        mainStackView.bringSubview(toFront: iHLogo)
     }
     
-    @IBAction func artistsButtonPressed(_ sender: Any) {
+    @objc func artistsButtonPressed(_ sender: Any) {
         // Creates an SFSafariViewController object with 'Artists' page as destination
         let artistsSafariVC = SFSafariViewController(url: NSURL(string: "https://www.island-hopper.fortmyers-sanibel.com/artists")! as URL)
         
@@ -34,7 +36,8 @@ class ViewController: UIViewController {
         artistsSafariVC.delegate = self
     }
     
-    @IBAction func venuesButtonPressed(_ sender: Any) {
+    @objc func venuesButtonPressed(_ sender: Any) {
+        print("DERP")
         // Creates an SFSafariViewController object with 'Artists' page as destination
         let venuesSafariVC = SFSafariViewController(url: NSURL(string: "https://www.island-hopper.fortmyers-sanibel.com/2017-venues")! as URL)
         
@@ -53,12 +56,20 @@ extension ViewController {
         artistsButton.layer.shadowColor = UIColor.black.cgColor
         artistsButton.layer.shadowOpacity = 1
         artistsButton.layer.shadowOffset = CGSize.zero
+        artistsButton.addTarget(self, action: #selector(artistsButtonPressed), for: UIControlEvents.touchUpInside)
         
         venuesButton.setBackgroundImage(UIImage(named:"Venues"), for: .normal)
         venuesButton.layer.shadowOffset = CGSize(width: 15, height: 15)
         venuesButton.layer.shadowColor = UIColor.black.cgColor
         venuesButton.layer.shadowOpacity = 1
         venuesButton.layer.shadowOffset = CGSize.zero
+        
+        venuesButton.addTarget(self, action: #selector(venuesButtonPressed), for: UIControlEvents.touchUpInside)
+//        venuesButton.addTarget(self, action: Selector("venuesButtonPressed"), for: UIControlEvents.touchUpInside)
+        
+//        self
+//        action:@selector(myAction)
+//        forControlEvents:UIControlEventTouchUpInside
         
         iHLogo.image = UIImage(named: "IH")
         iHLogo.contentMode = .scaleAspectFit
@@ -70,7 +81,7 @@ extension ViewController {
         
         setupCarousel()
         
-        setupConstraints()
+//        setupConstraints()
     }
  
     func setupConstraints(){
