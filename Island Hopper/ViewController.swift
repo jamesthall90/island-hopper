@@ -12,6 +12,7 @@ import SafariServices
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var topStackView: UIStackView!
     @IBOutlet weak var mainStackView: UIStackView!
     var titleArray = [String]()
     @IBOutlet weak var iHLogo: UIImageView!
@@ -19,6 +20,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var artistsButton: UIButton!
     @IBOutlet weak var venuesButton: UIButton!
     @IBOutlet weak var backgroundView: UIView!
+    @IBOutlet weak var thirdButton: UIButton!
+    @IBOutlet weak var fourthButton: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,13 +67,21 @@ extension ViewController {
         venuesButton.layer.shadowColor = UIColor.black.cgColor
         venuesButton.layer.shadowOpacity = 1
         venuesButton.layer.shadowOffset = CGSize.zero
-        
         venuesButton.addTarget(self, action: #selector(venuesButtonPressed), for: UIControlEvents.touchUpInside)
-//        venuesButton.addTarget(self, action: Selector("venuesButtonPressed"), for: UIControlEvents.touchUpInside)
         
-//        self
-//        action:@selector(myAction)
-//        forControlEvents:UIControlEventTouchUpInside
+        thirdButton.setBackgroundImage(UIImage(named:"Schedules"), for: .normal)
+        thirdButton.layer.shadowOffset = CGSize(width: 15, height: 15)
+        thirdButton.layer.shadowColor = UIColor.black.cgColor
+        thirdButton.layer.shadowOpacity = 1
+        thirdButton.layer.shadowOffset = CGSize.zero
+        thirdButton.addTarget(self, action: #selector(artistsButtonPressed), for: UIControlEvents.touchUpInside)
+        
+        fourthButton.setBackgroundImage(UIImage(named:"Lodging"), for: .normal)
+        fourthButton.layer.shadowOffset = CGSize(width: 15, height: 15)
+        fourthButton.layer.shadowColor = UIColor.black.cgColor
+        fourthButton.layer.shadowOpacity = 1
+        fourthButton.layer.shadowOffset = CGSize.zero
+        fourthButton.addTarget(self, action: #selector(venuesButtonPressed), for: UIControlEvents.touchUpInside)
         
         iHLogo.image = UIImage(named: "IH")
         iHLogo.contentMode = .scaleAspectFit
@@ -80,6 +92,10 @@ extension ViewController {
         iHLogo.layer.shadowOffset = CGSize.zero
         
         setupCarousel()
+        
+        for view in topStackView.arrangedSubviews {
+            topStackView.sendSubview(toBack: view)
+        }
         
 //        setupConstraints()
     }
