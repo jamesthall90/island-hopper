@@ -12,10 +12,10 @@
 		7219F82F1FF2B199003A410D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219F82E1FF2B199003A410D /* AppDelegate.swift */; };
 		7219F8311FF2B199003A410D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219F8301FF2B199003A410D /* ViewController.swift */; };
 		7219F8341FF2B199003A410D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7219F8321FF2B199003A410D /* Main.storyboard */; };
-		7219F8361FF2B199003A410D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7219F8351FF2B199003A410D /* Assets.xcassets */; };
 		7219F8391FF2B199003A410D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7219F8371FF2B199003A410D /* LaunchScreen.storyboard */; };
 		7219F8441FF2B199003A410D /* Island_HopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219F8431FF2B199003A410D /* Island_HopperTests.swift */; };
 		7219F84F1FF2B199003A410D /* Island_HopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219F84E1FF2B199003A410D /* Island_HopperUITests.swift */; };
+		72B4D5D62035E1720050E711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B4D5D52035E1720050E711 /* Assets.xcassets */; };
 		A8911F2EB340C4237496FEE5 /* Pods_Island_HopperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F4618D37B8AD02554CEC86 /* Pods_Island_HopperTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +44,6 @@
 		7219F82E1FF2B199003A410D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7219F8301FF2B199003A410D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7219F8331FF2B199003A410D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7219F8351FF2B199003A410D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7219F8381FF2B199003A410D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7219F83A1FF2B199003A410D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7219F83F1FF2B199003A410D /* Island HopperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Island HopperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +52,7 @@
 		7219F84A1FF2B199003A410D /* Island HopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Island HopperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7219F84E1FF2B199003A410D /* Island_HopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island_HopperUITests.swift; sourceTree = "<group>"; };
 		7219F8501FF2B199003A410D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72B4D5D52035E1720050E711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76D295BB1F1DA4E203C86428 /* Pods-Island Hopper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Island Hopper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Island Hopper/Pods-Island Hopper.debug.xcconfig"; sourceTree = "<group>"; };
 		8A097C91C869A9AAF76A8A9B /* Pods-Island HopperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Island HopperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Island HopperTests/Pods-Island HopperTests.release.xcconfig"; sourceTree = "<group>"; };
 		916072E04E0F59D8003B6991 /* Pods-Island HopperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Island HopperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Island HopperUITests/Pods-Island HopperUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,10 +114,10 @@
 		7219F82D1FF2B199003A410D /* Island Hopper */ = {
 			isa = PBXGroup;
 			children = (
+				72B4D5D52035E1720050E711 /* Assets.xcassets */,
 				7219F82E1FF2B199003A410D /* AppDelegate.swift */,
 				7219F8301FF2B199003A410D /* ViewController.swift */,
 				7219F8321FF2B199003A410D /* Main.storyboard */,
-				7219F8351FF2B199003A410D /* Assets.xcassets */,
 				7219F8371FF2B199003A410D /* LaunchScreen.storyboard */,
 				7219F83A1FF2B199003A410D /* Info.plist */,
 			);
@@ -281,7 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7219F8391FF2B199003A410D /* LaunchScreen.storyboard in Resources */,
-				7219F8361FF2B199003A410D /* Assets.xcassets in Resources */,
+				72B4D5D62035E1720050E711 /* Assets.xcassets in Resources */,
 				7219F8341FF2B199003A410D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
