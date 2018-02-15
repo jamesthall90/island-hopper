@@ -50,7 +50,7 @@
                                         <rect key="frame" x="0.0" y="401" width="375" height="266"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Wei-Ga-3qe">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="755"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="770"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kgC-OQ-caJ">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="10"/>
@@ -196,6 +196,13 @@
                                                             <constraint firstItem="KjT-x1-BON" firstAttribute="leading" secondItem="thJ-4E-1co" secondAttribute="trailing" id="jxG-e1-0A2"/>
                                                         </constraints>
                                                     </stackView>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XcK-d6-9hQ">
+                                                        <rect key="frame" x="0.0" y="760" width="375" height="10"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="10" id="HvM-J3-WCc"/>
+                                                        </constraints>
+                                                    </view>
                                                 </subviews>
                                             </stackView>
                                         </subviews>

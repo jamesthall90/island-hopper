@@ -41,7 +41,6 @@ class ViewController: UIViewController {
     }
     
     @objc func venuesButtonPressed(_ sender: Any) {
-        print("DERP")
         // Creates an SFSafariViewController object with 'Artists' page as destination
         let venuesSafariVC = SFSafariViewController(url: NSURL(string: "https://www.island-hopper.fortmyers-sanibel.com/2017-venues")! as URL)
         
@@ -49,6 +48,26 @@ class ViewController: UIViewController {
         self.present(venuesSafariVC, animated: true, completion: nil)
         
         venuesSafariVC.delegate = self
+    }
+    
+    @objc func schedulesButtonPressed(_ sender: Any) {
+        // Creates an SFSafariViewController object with 'Artists' page as destination
+        let schedulesSafariVC = SFSafariViewController(url: NSURL(string: "https://www.island-hopper.fortmyers-sanibel.com/schedules")! as URL)
+        
+        //Causes the safariVC to present on screen
+        self.present(schedulesSafariVC, animated: true, completion: nil)
+        
+        schedulesSafariVC.delegate = self
+    }
+    
+    @objc func lodgingButtonPressed(_ sender: Any) {
+        // Creates an SFSafariViewController object with 'Artists' page as destination
+        let lodgingSafariVC = SFSafariViewController(url: NSURL(string: "https://www.island-hopper.fortmyers-sanibel.com/lodging")! as URL)
+        
+        //Causes the safariVC to present on screen
+        self.present(lodgingSafariVC, animated: true, completion: nil)
+        
+        lodgingSafariVC.delegate = self
     }
 }
 
@@ -74,14 +93,14 @@ extension ViewController {
         thirdButton.layer.shadowColor = UIColor.black.cgColor
         thirdButton.layer.shadowOpacity = 1
         thirdButton.layer.shadowOffset = CGSize.zero
-        thirdButton.addTarget(self, action: #selector(artistsButtonPressed), for: UIControlEvents.touchUpInside)
+        thirdButton.addTarget(self, action: #selector(schedulesButtonPressed), for: UIControlEvents.touchUpInside)
         
         fourthButton.setBackgroundImage(UIImage(named:"Lodging"), for: .normal)
         fourthButton.layer.shadowOffset = CGSize(width: 15, height: 15)
         fourthButton.layer.shadowColor = UIColor.black.cgColor
         fourthButton.layer.shadowOpacity = 1
         fourthButton.layer.shadowOffset = CGSize.zero
-        fourthButton.addTarget(self, action: #selector(venuesButtonPressed), for: UIControlEvents.touchUpInside)
+        fourthButton.addTarget(self, action: #selector(lodgingButtonPressed), for: UIControlEvents.touchUpInside)
         
         iHLogo.image = UIImage(named: "IH")
         iHLogo.contentMode = .scaleAspectFit
